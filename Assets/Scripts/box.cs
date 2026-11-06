@@ -1,12 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewBox", menuName = "Box/NewBox")]
-public class Box : ScriptableObject
+public class Box : MonoBehaviour
 {
     public int id;
     public string sender;
     public string receiver;
     public string adress;
-    public double weight;
+    public int postnumber;
+    public double purchasedWeight;
+    public double actualWeight;
     public Sprite img;
+    public Sprite computerImg;
 }

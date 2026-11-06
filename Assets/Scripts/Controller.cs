@@ -15,7 +15,6 @@ public class Controller : MonoBehaviour
     public Canvas canvas4;
     private Canvas activeCanvas;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         activeCanvas = canvas1;
@@ -25,6 +24,29 @@ public class Controller : MonoBehaviour
         actionSwitchToScreen2.action.started += switchToScreen2;
         actionSwitchToScreen3.action.started += switchToScreen3;
         actionSwitchToScreen4.action.started += switchToScreen4;
+    }
+
+    void OnDisable()
+    {
+        actionSwitchNext.action.started -= switchToNextScreen;
+        actionSwitchPrev.action.started -= switchToPrevScreen;
+        actionSwitchToScreen1.action.started -= switchToScreen1;
+        actionSwitchToScreen2.action.started -= switchToScreen2;
+        actionSwitchToScreen3.action.started -= switchToScreen3;
+        actionSwitchToScreen4.action.started -= switchToScreen4;
+    }
+
+    void switchToScreen1(InputAction.CallbackContext context){switchCanvas(canvas1);}
+    void switchToScreen2(InputAction.CallbackContext context){switchCanvas(canvas2);}
+    void switchToScreen3(InputAction.CallbackContext context){switchCanvas(canvas3);}
+    void switchToScreen4(InputAction.CallbackContext context){switchCanvas(canvas4);}
+
+    void switchCanvas(Canvas canvas)
+    {
+        if(canvas == activeCanvas) return;
+        activeCanvas.enabled = false;
+        activeCanvas = canvas;
+        activeCanvas.enabled = true;
     }
 
     void switchToNextScreen(InputAction.CallbackContext context)
@@ -38,9 +60,7 @@ public class Controller : MonoBehaviour
             tmp = canvas4;
         else if (canvas4.isActiveAndEnabled)
             tmp = canvas1;
-        activeCanvas.enabled = false;
-        activeCanvas = tmp;
-        activeCanvas.enabled = true;
+        switchCanvas(tmp);
     }
     void switchToPrevScreen(InputAction.CallbackContext context)
     {
@@ -53,37 +73,9 @@ public class Controller : MonoBehaviour
             tmp = canvas2;
         else if (canvas4.isActiveAndEnabled)
             tmp = canvas3;
-        activeCanvas.enabled = false;
-        activeCanvas = tmp;
-        activeCanvas.enabled = true;
+        switchCanvas(tmp);
     }
 
-    void switchToScreen1(InputAction.CallbackContext context)
-    {
-        activeCanvas.enabled = false;
-        activeCanvas = canvas1;
-        activeCanvas.enabled = true;
-    }
-    void switchToScreen2(InputAction.CallbackContext context)
-    {
-        activeCanvas.enabled = false;
-        activeCanvas = canvas2;
-        activeCanvas.enabled = true;
-    }
-    void switchToScreen3(InputAction.CallbackContext context)
-    {
-        activeCanvas.enabled = false;
-        activeCanvas = canvas3;
-        activeCanvas.enabled = true;
-    }
-    void switchToScreen4(InputAction.CallbackContext context)
-    {
-        activeCanvas.enabled = false;
-        activeCanvas = canvas4;
-        activeCanvas.enabled = true;
-    }
-
-    // Update is called once per frame
     void Update()
     {
         
