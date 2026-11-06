@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b8d0028ac118472379c0cdfefe142452
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - actionSwitchNext: {fileID: 7476244043514120974, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - actionSwitchPrev: {fileID: 2411907206095950430, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - actionSwitchToScreen1: {fileID: 3623838530674550764, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - actionSwitchToScreen2: {fileID: -1094611543841121347, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - actionSwitchToScreen3: {fileID: 9061160426955167744, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - actionSwitchToScreen4: {fileID: 3506800803357941346, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  - canvas1: {instanceID: 0}
+  - canvas2: {instanceID: 0}
+  - canvas3: {instanceID: 0}
+  - canvas4: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
