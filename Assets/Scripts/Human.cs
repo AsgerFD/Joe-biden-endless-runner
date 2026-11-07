@@ -85,17 +85,21 @@ public class Human : MonoBehaviour
     IEnumerator balls()
     {
         float timeTaken = 0.0f;
-        for(;box.hasBeenTaken && timeTaken < patienceMad; timeTaken += Time.deltaTime)
+        while(timeTaken < patienceMad)
         {
-            yield return new WaitForNextFrameUnit();
+            if(box.hasBeenTaken) break;
+            timeTaken += Time.deltaTime;
+            yield return 0;
         }
-        if(timeTaken < patienceMad)
+        if(timeTaken > patienceMad)
         {
             GetComponent<UnityEngine.UI.Image>().sprite = Mad;
         }
-        for(;box.hasBeenTaken && timeTaken < patienceLeave; timeTaken += Time.deltaTime)
+        while(timeTaken < patienceLeave)
         {
-            yield return new WaitForNextFrameUnit();
+            if(box.hasBeenTaken) break;
+            timeTaken += Time.deltaTime;
+            yield return 0;
         }
         if (timeTaken < patienceLeave)
         {
