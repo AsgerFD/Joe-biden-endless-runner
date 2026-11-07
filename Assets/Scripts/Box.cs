@@ -7,12 +7,12 @@ public class Box : MonoBehaviour
     [Header("Parameters")]
     public string id;
     public string auth;
-    public e_boxtype boxtype;
+    public e_boxtype boxtype = e_boxtype.DEFAULT;
     public int points = 1;
     public int penalty = 5;
     public string sender;
     public string receiver;
-    public string adress;
+    public string address;
     public int postnumber = 1000;
     public int purchasedWeight; // I gram
     public int actualWeight;    // I gram
@@ -24,6 +24,7 @@ public class Box : MonoBehaviour
 
     [HideInInspector]public int sticker;
     [HideInInspector]public Sprite sitckerImg;
+    [HideInInspector]public bool hasBeenTaken;
 
     private void updateImg()
     {

@@ -15,7 +15,6 @@ public class Sticker : MonoBehaviour, IEndDragHandler
         {
             Box awesome = hit.gameObject.GetComponent<Box>();
             if(awesome == null) continue;
-            Debug.Log(awesome);
             awesome.sticker = sticker;
             awesome.sitckerImg = stickerImg;
             awesome.SendMessage("updateImg");
