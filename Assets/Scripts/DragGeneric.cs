@@ -34,4 +34,9 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         if(locked) transform.position = origPos;
         dragged = false;
     }
+
+    public void changeDragManager()
+    {
+        manager = GetComponentInParent<DragManager>();
+    }
 }
