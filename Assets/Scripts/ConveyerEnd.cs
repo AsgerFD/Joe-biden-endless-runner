@@ -23,6 +23,7 @@ public class ConveyerEnd : MonoBehaviour
             RectTransform rt = box.GetComponent<RectTransform>();
             if(EmptyScript.DothContain(thisRectTrans, rt))
             {
+                box.hasBeenTaken = true;
                 rt.SetParent(nextParent.transform);                
                 rt.position = whereTo.position;
                 rt.SendMessage("changeDragManager");

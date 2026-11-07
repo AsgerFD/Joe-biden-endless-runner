@@ -11,17 +11,37 @@ public class Computer : MonoBehaviour
     public TMP_Text postnumber;
     public TMP_Text weight;
     public TMP_Text auth;
+    public TMP_Text id;
+
+    public AudioSource sfxSource;
+
+    private SettingsManager settingsManager;
 
     public static Box currentBox;
     public static UnityEvent newBoxEvent = new UnityEvent();
 
     void Start()
     {
+        settingsManager = SettingsManager.Instance;
         newBoxEvent.AddListener(awesome);
+        settingsManager.settingsChangedEvent.AddListener(LoadSettings);
+        LoadSettings();
+    }
+    void OnDisable()
+    {
+        newBoxEvent.AddListener(awesome);
+        settingsManager.settingsChangedEvent.RemoveListener(LoadSettings);
+    }
+
+    void LoadSettings()
+    {
+        sfxSource.volume = settingsManager.sfxVolume;
     }
 
     void awesome()
     {
+        sfxSource.Play();
+        id.text = currentBox.id;
         auth.text = currentBox.auth;
         sender.text = currentBox.sender;
         receiver.text = currentBox.receiver;

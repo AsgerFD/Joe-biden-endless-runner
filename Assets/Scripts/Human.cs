@@ -23,7 +23,7 @@ public class Human : MonoBehaviour
 
     void Start()
     {
-        GameObject uhhh = Instantiate(boxPrefab);
+        GameObject uhhh = Instantiate(boxPrefab, transform.parent);
         uhhh.transform.position = boxSpawn.position;
         box = uhhh.GetComponent<Box>();
 
@@ -64,16 +64,19 @@ public class Human : MonoBehaviour
 
     IEnumerator balls()
     {
-        yield return 0;
         float timeTaken = 0.0f;
         for(;box.hasBeenTaken && timeTaken < patienceMad; timeTaken += Time.deltaTime)
-            yield return 0;
+        {
+            yield return new WaitForNextFrameUnit();
+        }
         if(timeTaken < patienceMad)
         {
             GetComponent<UnityEngine.UI.Image>().sprite = Mad;
         }
         for(;box.hasBeenTaken && timeTaken < patienceLeave; timeTaken += Time.deltaTime)
-            yield return 0;
+        {
+            yield return new WaitForNextFrameUnit();
+        }
         if (timeTaken < patienceLeave)
         {
             // Or trigger an animation type shit

@@ -125,13 +125,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Human
   Mad: {fileID: 0}
-  randomNames: []
-  randomAddresses: []
+  randomNames:
+  - JamWayne
+  randomAddresses:
+  - White House
   contrabandEnabled: 0
   contrabandChance: 0.9
   chars: 4100420043004400450046004700480049004a004b004c004d004e004f0050005100520053005400550056005700580059005a00
-  allowedPostnumbers: 
+  allowedPostnumbers: 2c1a0000
   boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
   boxSpawn: {fileID: 7595635581468626296}
   patienceMad: 5
   patienceLeave: 10
+  packageSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

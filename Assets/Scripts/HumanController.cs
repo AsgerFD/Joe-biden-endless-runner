@@ -22,7 +22,7 @@ public class HumanController : MonoBehaviour
 
     void addHumanHandler()
     {
-        GameObject pf = Instantiate(playerPrefab);
+        GameObject pf = Instantiate(playerPrefab, transform);
         pf.GetComponent<Image>().sprite = playerSprites[Random.Range(0,playerSprites.Count)];
         pf.transform.position = transform.position;
     }
