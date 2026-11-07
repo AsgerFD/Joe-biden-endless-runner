@@ -20,8 +20,8 @@ public class Human : MonoBehaviour
     [Header("Actual balancing")]
     public float weightFraudChance = 0.1f;
     public float adressFuckupChance = 0.1f;
-    public float patienceMad = 5.0f;
-    public float patienceLeave = 10.0f;
+    public float patienceMad = 10.0f;
+    public float patienceLeave = 15.0f;
     [Header("Actually needed")]
     public GameObject boxPrefab;
     public Transform boxSpawn;
@@ -34,12 +34,17 @@ public class Human : MonoBehaviour
         audioSource.volume = settingsManager.sfxVolume;
     }
 
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         settingsManager = SettingsManager.Instance;
         settingsManager.settingsChangedEvent.AddListener(LoadSettings);
         LoadSettings();
+    }
+
+    void Start()
+    {
         GameObject uhhh = Instantiate(boxPrefab, transform.parent);
         uhhh.transform.position = boxSpawn.position;
         box = uhhh.GetComponent<Box>();

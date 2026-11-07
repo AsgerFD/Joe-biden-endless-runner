@@ -27,7 +27,6 @@ public class HumanController : MonoBehaviour
         int tmp = Random.Range(0,playerSprites.Count);
         pf.GetComponent<Image>().sprite = playerSprites[tmp];
         pf.GetComponent<Human>().Mad = playerMadSprites[tmp];
-
         pf.transform.position = transform.position;
     }
 }
