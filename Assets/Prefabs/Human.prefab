@@ -126,17 +126,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Human
   Mad: {fileID: 0}
   randomNames:
-  - JamWayne
-  randomAddresses:
-  - White House
+  - Wayne, J.
+  - Geertsem, M.
+  - Olsen, J.
+  - Titor, J.
+  - Fuglsbjerg, A.
+  - Cash, K.
+  - Gold, W.
+  - Thompsen, B.
+  - Letourneau. R.
+  - Grimm, K.
+  - Plumm, H.
+  - Meyer, S.
+  - Kyouma, H.
+  - Kuma, M.
+  - Ludensburg, C.
+  - Chun, R.D.
+  - You, B.
+  - Miku, H.
+  - Wayne, B.
+  - Code
+  - Isaac, I.
+  - Graves, A.
+  - Graves, L.
+  - Goose, G.
+  - Drinkwater, D.
+  - Freeman, G.
+  - Frimann, M.
+  - Scritchy, S.
+  - Croft, L.
+  - Lebowski, J.
+  - Epstein, J.
+  - Jesus, B.
+  - Faker
+  - Mr. Green
+  - Beast, B.
+  - Trolle, A.
+  - Hund, B.
+  - Miller, R.
+  - Altman, S.
+  - Turell, D.
+  - Timothy, T.
+  - Suzumiya, H.
+  - Kazuma, S.
+  - Pilgrim, S.
+  - Wells, W.
+  - Protagonist
+  - Pegg, S.
+  - Frost, N.
+  - Shinji, I.
+  - Kojima, H.
+  - Rei, A.
+  - Harald, L.R.
+  - Misato, K.
+  - Dissing, P.
+  - Dahl, P.
+  - Nalle, R.
+  - Skaeg, H.
+  - Knoes, V.
+  - Reynolds, R.
+  - Shalomay, T.
+  - Graham, L.
+  - Sheeran, E.
+  - Biden, H.
+  - MacDonald, T.
+  - Albrecht, M.
+  - Talafreako, J.
+  - Beast, J.
+  allowedPostnumbers: 28230000a10100002c1a000009030000
+  randomAddresses1:
+  - 41 Myrdal st.
+  - 8 Mygge st.
+  - 24 Abzalon st.
+  randomAddresses2:
+  - 4 Missouri st.
+  - 2 Blexas st.
+  - 5 Bama st.
+  randomAddresses3:
+  - 420 Pork st.
+  - 8 Ohio town
+  - 3 TunTun st.
+  randomAddresses4:
+  - 7 Jack st.
+  - 11 Pot blvd.
+  - 9 Jod house
   contrabandEnabled: 0
   contrabandChance: 0.9
-  chars: 4100420043004400450046004700480049004a004b004c004d004e004f0050005100520053005400550056005700580059005a00
-  allowedPostnumbers: 2c1a0000
-  boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
-  boxSpawn: {fileID: 7595635581468626296}
   patienceMad: 5
   patienceLeave: 10
+  boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
+  boxSpawn: {fileID: 7595635581468626296}
   packageSprites:
   - {fileID: 0}
   - {fileID: 0}

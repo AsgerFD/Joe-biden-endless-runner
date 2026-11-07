@@ -1,24 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Unity.VisualStudio.Editor;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
 {
     private Box box;
+    List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
     [HideInInspector]public Sprite Mad;
+    [Header("Funnies")]
     public List<string> randomNames;
-    public List<string> randomAddresses;
+    public List<int> allowedPostnumbers;
+    public List<string> randomAddresses1;
+    public List<string> randomAddresses2;
+    public List<string> randomAddresses3;
+    public List<string> randomAddresses4;
+    [Header("Actual balancing")]
     public bool contrabandEnabled = false;
     public float contrabandChance = 0.9f;
-    public List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
-    public List<int> allowedPostnumbers;
-    public GameObject boxPrefab;
-    public Transform boxSpawn;
     public float patienceMad = 5.0f;
     public float patienceLeave = 10.0f;
+    [Header("Actually needed")]
+    public GameObject boxPrefab;
+    public Transform boxSpawn;
     public List<Sprite> packageSprites;
 
     void Start()
@@ -33,8 +38,23 @@ public class Human : MonoBehaviour
         //box.penalty     =   5;
         box.sender      =   randomNames[Random.Range(0, randomNames.Count)];
         box.receiver    =   randomNames[Random.Range(0, randomNames.Count)];
-        box.address     =   randomAddresses[Random.Range(0, randomAddresses.Count)];
-        box.postnumber  =   allowedPostnumbers[Random.Range(0, allowedPostnumbers.Count)];
+        int tmpPostnumberIndex = Random.Range(0, allowedPostnumbers.Count);
+        box.postnumber  =   allowedPostnumbers[tmpPostnumberIndex];
+        switch (tmpPostnumberIndex)
+        {
+            case 0:
+                box.address =   randomAddresses1[Random.Range(0, randomAddresses1.Count)];
+                break;
+            case 1:
+                box.address =   randomAddresses2[Random.Range(0, randomAddresses2.Count)];
+                break;
+            case 2:
+                box.address =   randomAddresses3[Random.Range(0, randomAddresses3.Count)];
+                break;
+            case 3:
+                box.address =   randomAddresses4[Random.Range(0, randomAddresses4.Count)];
+                break;
+        }
         if(contrabandEnabled && Random.Range(0f,1f) > contrabandChance)
         {
             box.boxtype =   Box.e_boxtype.CONTRABAND;
