@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
 {
     private Box box;
+    private SettingsManager settingsManager;
     List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
     [HideInInspector]public Sprite Mad;
     [Header("Funnies")]
@@ -24,9 +26,20 @@ public class Human : MonoBehaviour
     public GameObject boxPrefab;
     public Transform boxSpawn;
     public List<Sprite> packageSprites;
+    public Animator animator;
+    public AudioSource audioSource;
+
+    void LoadSettings()
+    {
+        audioSource.volume = settingsManager.sfxVolume;
+    }
 
     void Start()
     {
+        animator = GetComponent<Animator>();
+        settingsManager = SettingsManager.Instance;
+        settingsManager.settingsChangedEvent.AddListener(LoadSettings);
+        LoadSettings();
         GameObject uhhh = Instantiate(boxPrefab, transform.parent);
         uhhh.transform.position = boxSpawn.position;
         box = uhhh.GetComponent<Box>();
@@ -86,6 +99,11 @@ public class Human : MonoBehaviour
         StartCoroutine(balls());
     }
 
+    void OnDisable()
+    {
+        settingsManager.settingsChangedEvent.RemoveListener(LoadSettings);
+    }
+
     IEnumerator balls()
     {
         float timeTaken = 0.0f;
@@ -105,17 +123,13 @@ public class Human : MonoBehaviour
             timeTaken += Time.deltaTime;
             yield return 0;
         }
-        if (timeTaken < patienceLeave)
+        animator.SetTrigger("exit");
+        if (timeTaken > patienceLeave)
         {
-            // Or trigger an animation type shit
-            Destroy(gameObject);
-        }
-        else
-        {
-            // Or trigger an animation skriv lort
             Score.score -= box.penalty;
             Destroy(box.gameObject);
-            Destroy(gameObject);
         }
+        yield return new WaitForSecondsRealtime(5);
+        Destroy(gameObject);
     }
 }

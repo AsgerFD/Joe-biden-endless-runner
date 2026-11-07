@@ -7,6 +7,7 @@ public class HumanController : MonoBehaviour
 {
     public static UnityEvent newHumanEvent;
     public List<Sprite> playerSprites;
+    public List<Sprite> playerMadSprites;
     public GameObject playerPrefab;
 
     void Awake()
@@ -23,7 +24,10 @@ public class HumanController : MonoBehaviour
     void addHumanHandler()
     {
         GameObject pf = Instantiate(playerPrefab, transform);
-        pf.GetComponent<Image>().sprite = playerSprites[Random.Range(0,playerSprites.Count)];
+        int tmp = Random.Range(0,playerSprites.Count);
+        pf.GetComponent<Image>().sprite = playerSprites[tmp];
+        pf.GetComponent<Human>().Mad = playerMadSprites[tmp];
+
         pf.transform.position = transform.position;
     }
 }
