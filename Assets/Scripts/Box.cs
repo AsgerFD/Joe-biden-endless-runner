@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class Box : MonoBehaviour
 {
-    public enum e_boxtype {DEFAULT, CONTRABAND};
+    public enum e_boxtype {DEFAULT, DISCARD};
     [Header("Parameters")]
     public string id;
     public string auth;
@@ -34,9 +34,9 @@ public class Box : MonoBehaviour
 
     public bool verify(Hole hole)
     {
-        if(boxtype == e_boxtype.CONTRABAND)
+        if(boxtype == e_boxtype.DISCARD)
         {
-            if(hole.holetype != e_boxtype.CONTRABAND) return false;
+            if(hole.holetype != e_boxtype.DISCARD) return false;
         } else {
             if(sticker != postnumber) return false;
         }

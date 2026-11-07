@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
@@ -17,8 +16,8 @@ public class Human : MonoBehaviour
     public List<string> randomAddresses3;
     public List<string> randomAddresses4;
     [Header("Actual balancing")]
-    public bool contrabandEnabled = false;
-    public float contrabandChance = 0.9f;
+    public float weightFraudChance = 0.1f;
+    public float adressFuckupChance = 0.1f;
     public float patienceMad = 5.0f;
     public float patienceLeave = 10.0f;
     [Header("Actually needed")]
@@ -34,14 +33,18 @@ public class Human : MonoBehaviour
 
         box.id          =   System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9)) + "-" + System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9));
         box.auth        =   System.Convert.ToString(Random.Range(0,9)) + "-" + chars[Random.Range(0,chars.Count)]  +"-" + System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9)) + "-" + System.Convert.ToString(Random.Range(0,9));
-        //box.points      =   1;
-        //box.penalty     =   5;
         box.sender      =   randomNames[Random.Range(0, randomNames.Count)];
         box.receiver    =   randomNames[Random.Range(0, randomNames.Count)];
         int tmpPostnumberIndex = Random.Range(0, allowedPostnumbers.Count);
         box.postnumber  =   allowedPostnumbers[tmpPostnumberIndex];
-        switch (tmpPostnumberIndex)
+        if(Random.Range(0f,1f) < adressFuckupChance)
         {
+            box.boxtype =   Box.e_boxtype.DISCARD;
+            int tmpTmpPostnumberIndex = tmpPostnumberIndex;
+            while(tmpTmpPostnumberIndex == tmpPostnumberIndex)
+                tmpPostnumberIndex = Random.Range(0, allowedPostnumbers.Count);
+        }
+        switch (tmpPostnumberIndex) {
             case 0:
                 box.address =   randomAddresses1[Random.Range(0, randomAddresses1.Count)];
                 break;
@@ -55,12 +58,13 @@ public class Human : MonoBehaviour
                 box.address =   randomAddresses4[Random.Range(0, randomAddresses4.Count)];
                 break;
         }
-        if(contrabandEnabled && Random.Range(0f,1f) > contrabandChance)
+        if(Random.Range(0f,1f) < weightFraudChance)
         {
-            box.boxtype =   Box.e_boxtype.CONTRABAND;
+            box.boxtype =   Box.e_boxtype.DISCARD;
             box.purchasedWeight =   Random.Range(1, 5)*Random.Range(1, 5)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight*2, box.purchasedWeight*4);
-        } else {
+        }
+        if(box.boxtype != Box.e_boxtype.DISCARD) {
             box.boxtype = Box.e_boxtype.DEFAULT;
             box.purchasedWeight =   Random.Range(1, 10)*Random.Range(1, 10)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight/2, box.purchasedWeight);
@@ -111,6 +115,7 @@ public class Human : MonoBehaviour
             // Or trigger an animation skriv lort
             Score.score -= box.penalty;
             Destroy(box.gameObject);
+            Destroy(gameObject);
         }
     }
 }

@@ -6,12 +6,12 @@ public class Score : MonoBehaviour
 {
     public static int score = 0;
     public static int lives = 3;
-    [HideInInspector]public static float conveyerSpeed = 40;
+    [HideInInspector]public static float conveyerSpeed;
     public double initialConveyerSpeed = 40;
-    public double logScale = 60;
-    public float humanFrequency = 5;
-
-
+    public double logScaleConveyerSpeed = 60;
+    [HideInInspector]public float humanFrequency = 60;
+    public double initialHumanFrequency = 30;
+    public double logScaleHumanFrequency = 60;
 
     private double time;
 
@@ -29,7 +29,10 @@ public class Score : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        conveyerSpeed = (float)(initialConveyerSpeed * Math.Log(logScale+time)/Math.Log(logScale));
+        conveyerSpeed   =   (float)(initialConveyerSpeed * Math.Log(logScaleConveyerSpeed + time) / Math.Log(logScaleConveyerSpeed));
+        Debug.Log("convspeed: " +  conveyerSpeed);
+        humanFrequency  =   (float)(initialHumanFrequency * Math.Log(logScaleHumanFrequency) / Math.Log(logScaleHumanFrequency + time));
+        Debug.Log("hrmnfrequ: " +  humanFrequency);
     }
 
     IEnumerator SpawnHumans()

@@ -72,7 +72,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 720, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6025429424981405390
 CanvasRenderer:
@@ -210,8 +210,8 @@ MonoBehaviour:
   - 7 Jack st.
   - 11 Pot blvd.
   - 9 Jod house
-  contrabandEnabled: 0
-  contrabandChance: 0.9
+  weightFraudChance: 0.1
+  adressFuckupChance: 0.1
   patienceMad: 5
   patienceLeave: 10
   boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
