@@ -7,9 +7,10 @@ public class Computer : MonoBehaviour
 {
     public TMP_Text sender;
     public TMP_Text receiver;
-    public TMP_Text adress;
+    public TMP_Text address;
     public TMP_Text postnumber;
     public TMP_Text weight;
+    public TMP_Text auth;
 
     public static Box currentBox;
     public static UnityEvent newBoxEvent = new UnityEvent();
@@ -21,9 +22,10 @@ public class Computer : MonoBehaviour
 
     void awesome()
     {
+        auth.text = currentBox.auth;
         sender.text = currentBox.sender;
         receiver.text = currentBox.receiver;
-        adress.text = currentBox.adress;
+        address.text = currentBox.address;
         postnumber.text = Convert.ToString(currentBox.postnumber);
         weight.text = Convert.ToString(currentBox.purchasedWeight / 1000) + "." + Convert.ToString(currentBox.purchasedWeight % 1000) + " KG";
         return;
