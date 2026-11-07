@@ -326,7 +326,6 @@ RectTransform:
   m_Children:
   - {fileID: 764026036}
   - {fileID: 718264350}
-  - {fileID: 623503692}
   - {fileID: 586458872}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -662,11 +661,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 112763635}
-  m_Father: {fileID: 304884956}
+  m_Father: {fileID: 718264350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -784, y: 202}
+  m_AnchoredPosition: {x: -823, y: 300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &623503693
@@ -770,13 +769,13 @@ MonoBehaviour:
   receiver: 
   adress: 
   postnumber: 0
-  sticker: 0
   purchasedWeight: 0
   actualWeight: 0
-  image: {fileID: 623503695}
-  stickerImage: {fileID: 112763636}
   img: {fileID: 0}
   computerImg: {fileID: 0}
+  image: {fileID: 623503695}
+  stickerImage: {fileID: 112763636}
+  sticker: 0
   sitckerImg: {fileID: 0}
 --- !u!114 &623503698
 MonoBehaviour:
@@ -791,6 +790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 0
+  dragged: 0
 --- !u!1 &650106884
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,13 +931,13 @@ MonoBehaviour:
   receiver: 
   adress: 
   postnumber: 0
-  sticker: 0
   purchasedWeight: 0
   actualWeight: 0
-  image: {fileID: 0}
-  stickerImage: {fileID: 0}
   img: {fileID: 0}
   computerImg: {fileID: 0}
+  image: {fileID: 0}
+  stickerImage: {fileID: 0}
+  sticker: 0
   sitckerImg: {fileID: 0}
 --- !u!1 &718264349
 GameObject:
@@ -968,6 +968,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1698946026}
+  - {fileID: 623503692}
   m_Father: {fileID: 304884956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1010,8 +1011,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 256.72662}
-  m_SizeDelta: {x: 1920, y: 253.5067}
+  m_AnchoredPosition: {x: 0, y: 300}
+  m_SizeDelta: {x: 3000, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764026037
 MonoBehaviour:
@@ -1025,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 600f262338bc66a0c9fc480817170eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
-  MovementVector: {x: 20, y: 0, z: 0}
+  MovementVector: {x: 80, y: 0, z: 0}
   search: {fileID: 304884952}
 --- !u!114 &764026038
 MonoBehaviour:
@@ -1265,7 +1266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 10
+  m_DragThreshold: 0
 --- !u!4 &1001621270
 Transform:
   m_ObjectHideFlags: 0
@@ -1658,7 +1659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9608524b3dd195a08aae7d7ffb226113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
-  locked: 0
+  locked: 1
+  dragged: 0
 --- !u!1 &1791984762
 GameObject:
   m_ObjectHideFlags: 0
