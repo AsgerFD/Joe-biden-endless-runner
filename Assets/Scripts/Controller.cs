@@ -44,7 +44,7 @@ public class Controller : MonoBehaviour
     void switchToScreen3(InputAction.CallbackContext context){switchCanvas(canvas3);}
     void switchToScreen4(InputAction.CallbackContext context){switchCanvas(canvas4);}
 
-    void switchCanvas(Canvas canvas)
+    public void switchCanvas(Canvas canvas)
     {
         if(canvas == activeCanvas) return;
         activeCanvas.enabled = false;
