@@ -25,7 +25,7 @@ public class Computer : MonoBehaviour
         receiver.text = currentBox.receiver;
         adress.text = currentBox.adress;
         postnumber.text = Convert.ToString(currentBox.postnumber);
-        weight.text = Convert.ToString(currentBox.purchasedWeight);
+        weight.text = Convert.ToString(currentBox.purchasedWeight / 1000) + "." + Convert.ToString(currentBox.purchasedWeight % 1000) + " KG";
         return;
     }
 }
