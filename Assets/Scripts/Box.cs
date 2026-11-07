@@ -24,6 +24,7 @@ public class Box : MonoBehaviour
 
     [HideInInspector]public int sticker;
     [HideInInspector]public Sprite sitckerImg;
+    [HideInInspector]public bool hasBeenTaken;
 
     private void updateImg()
     {
