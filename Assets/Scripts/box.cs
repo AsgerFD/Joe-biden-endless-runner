@@ -12,10 +12,4 @@ public class Box : MonoBehaviour
     public double actualWeight;
     public Sprite img;
     public Sprite computerImg;
-
-    private void OnMouseUp()
-    {
-        if (applier.sticker == 0) return;
-        sticker = applier.sticker;
-    }
 }

@@ -18,6 +18,9 @@ public class Controller : MonoBehaviour
     void Start()
     {
         activeCanvas = canvas1;
+        canvas2.enabled = false;
+        canvas3.enabled = false;
+        canvas4.enabled = false;
         actionSwitchNext.action.started += switchToNextScreen;
         actionSwitchPrev.action.started += switchToPrevScreen;
         actionSwitchToScreen1.action.started += switchToScreen1;
@@ -74,10 +77,5 @@ public class Controller : MonoBehaviour
         else if (canvas4.isActiveAndEnabled)
             tmp = canvas3;
         switchCanvas(tmp);
-    }
-
-    void Update()
-    {
-        
     }
 }
