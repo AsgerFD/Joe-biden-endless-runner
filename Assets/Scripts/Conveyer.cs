@@ -4,13 +4,12 @@ using UnityEngine;
 public class Conveyer : MonoBehaviour
 {
     RectTransform thisRect;
-    public Vector3 MovementVector;
+    Vector3 MovementVector => new Vector3(Score.conveyerSpeed, 0, 0);
     public GameObject search;
 
     private void Start()
     {
         thisRect = GetComponent<RectTransform>();
-        //thisRect = (transform as RectTransform).rect;
     }
 
     private void Update()

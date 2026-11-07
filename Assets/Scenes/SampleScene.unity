@@ -766,6 +766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Box
   id: 0
+  points: 0
+  penalty: 0
   sender: 
   receiver: 
   adress: 
@@ -928,6 +930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Box
   id: 0
+  points: 0
+  penalty: 0
   sender: 
   receiver: 
   adress: 
