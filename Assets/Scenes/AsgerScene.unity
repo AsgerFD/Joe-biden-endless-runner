@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -760,6 +761,21 @@ MonoBehaviour:
   canvas2: {fileID: 1791984765}
   canvas3: {fileID: 304884955}
   canvas4: {fileID: 2024951610}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9683b937cbd4ac61397538cb5efa9ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Score
+  initialConveyerSpeed: 40
+  logScale: 60
+  humanFrequency: 10
 --- !u!1 &569317465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,7 +2559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HumanController
   playerSprites: []
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 3146465696769031675, guid: a16700f88566501d6855de8b0d14dcfa, type: 3}
 --- !u!1 &2024951607
 GameObject:
   m_ObjectHideFlags: 0

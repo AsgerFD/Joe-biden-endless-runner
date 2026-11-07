@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Unity.VisualStudio.Editor;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
@@ -17,6 +19,7 @@ public class Human : MonoBehaviour
     public Transform boxSpawn;
     public float patienceMad = 5.0f;
     public float patienceLeave = 10.0f;
+    public List<Sprite> packageSprites;
 
     void Start()
     {
@@ -42,6 +45,20 @@ public class Human : MonoBehaviour
             box.purchasedWeight =   Random.Range(1, 10)*Random.Range(1, 10)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight/2, box.purchasedWeight);
         }
+        Sprite tmp;
+        switch (box.actualWeight)
+        {
+            case < 1:
+                tmp = packageSprites[0];
+                break;
+            case < 5:
+                tmp = packageSprites[1];
+                break;
+            default:
+                tmp = packageSprites[2];
+                break;
+        }
+        uhhh.GetComponent<UnityEngine.UI.Image>().sprite = tmp;
         StartCoroutine(balls());
     }
 
