@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 7e6e99fdb76fb5943b50a045cf73caaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5980986794766654535
+    second: compooter scan screen_0
+  - first:
+      213: 617481020818934551
+    second: compooter scan screen_1
+  - first:
+      213: 7870738758301666138
+    second: compooter scan screen_2
+  - first:
+      213: -6025621286564995868
+    second: compooter scan screen_3
+  - first:
+      213: -1435277436251183591
+    second: compooter scan screen_4
+  - first:
+      213: 7739375374235780564
+    second: compooter scan screen_5
+  - first:
+      213: 1087350050969371532
+    second: compooter scan screen_6
+  - first:
+      213: -7712837274391539685
+    second: compooter scan screen_7
+  - first:
+      213: -5586876361822467490
+    second: compooter scan screen_8
+  - first:
+      213: -1691153154883458604
+    second: compooter scan screen_9
+  - first:
+      213: 1887584575749353609
+    second: compooter scan screen_10
+  - first:
+      213: -6075947481003091979
+    second: compooter scan screen_11
+  - first:
+      213: 6760789675949413143
+    second: compooter scan screen_12
+  - first:
+      213: -8670303867676315632
+    second: compooter scan screen_13
+  - first:
+      213: -6840118522444273983
+    second: compooter scan screen_14
+  - first:
+      213: -5379851066688598215
+    second: compooter scan screen_15
+  - first:
+      213: 5678076523618610364
+    second: compooter scan screen_16
+  - first:
+      213: -2618916648939570118
+    second: compooter scan screen_17
+  - first:
+      213: 8203562394160371063
+    second: compooter scan screen_18
+  - first:
+      213: -3869405000689109121
+    second: compooter scan screen_19
+  - first:
+      213: 6734295872685551385
+    second: compooter scan screen_20
+  - first:
+      213: 6488875635965756684
+    second: compooter scan screen_21
+  - first:
+      213: -3081882312692170266
+    second: compooter scan screen_22
+  - first:
+      213: 5375065074088093631
+    second: compooter scan screen_23
+  - first:
+      213: -8426879623513500188
+    second: compooter scan screen_24
+  - first:
+      213: 8231602250505756039
+    second: compooter scan screen_25
+  - first:
+      213: -1188140533257656286
+    second: compooter scan screen_26
+  - first:
+      213: 7865431799654322102
+    second: compooter scan screen_27
+  - first:
+      213: -8917023885847083919
+    second: compooter scan screen_28
+  - first:
+      213: 8744612505224259319
+    second: compooter scan screen_29
+  - first:
+      213: 7676921096038869122
+    second: compooter scan screen_30
+  - first:
+      213: 6718607345448925393
+    second: compooter scan screen_31
+  - first:
+      213: 8694990840768400624
+    second: compooter scan screen_32
+  - first:
+      213: 5925616422292875823
+    second: compooter scan screen_33
+  - first:
+      213: -4626743809634681296
+    second: compooter scan screen_34
+  - first:
+      213: 8869173276123773178
+    second: compooter scan screen_35
+  - first:
+      213: 5638050811932712640
+    second: compooter scan screen_36
+  - first:
+      213: -3708419844999427404
+    second: compooter scan screen_37
+  - first:
+      213: -9125017044494569748
+    second: compooter scan screen_38
+  - first:
+      213: -2761431815618061590
+    second: compooter scan screen_39
+  - first:
+      213: -990738450852854790
+    second: compooter scan screen_40
+  - first:
+      213: -7922676805023758462
+    second: compooter scan screen_41
+  - first:
+      213: -5496517112647070382
+    second: compooter scan screen_42
+  - first:
+      213: 7086066050831945757
+    second: compooter scan screen_43
+  - first:
+      213: -6804849956705238106
+    second: compooter scan screen_44
+  - first:
+      213: 7638755456593652994
+    second: compooter scan screen_45
+  - first:
+      213: 7393516994409190316
+    second: compooter scan screen_46
+  - first:
+      213: -6669049310238043965
+    second: compooter scan screen_47
+  - first:
+      213: -5677633316717731220
+    second: compooter scan screen_48
+  - first:
+      213: 382000055592640014
+    second: compooter scan screen_49
+  - first:
+      213: -7474266172681381091
+    second: compooter scan screen_50
+  - first:
+      213: -7471188973379492170
+    second: compooter scan screen_51
+  - first:
+      213: -7012597304968623259
+    second: compooter scan screen_52
+  - first:
+      213: -3306646363998826067
+    second: compooter scan screen_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: compooter scan screen_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 107
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a1a3e2344ffca0800000000000000
+      internalID: -5980986794766654535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b457587bbb19800800000000000000
+      internalID: 617481020818934551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b4870233b7a3d60800000000000000
+      internalID: 7870738758301666138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecd24f6d51b06ca0800000000000000
+      internalID: -6025621286564995868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9166d12b6ced41ce0800000000000000
+      internalID: -1435277436251183591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5cabcd5e8c76b60800000000000000
+      internalID: 7739375374235780564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83488e3c1b071f00800000000000000
+      internalID: 1087350050969371532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1010810d5f76f490800000000000000
+      internalID: -7712837274391539685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a8b89ac8d6772b0800000000000000
+      internalID: -5586876361822467490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 119
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9e36e6a21d788e0800000000000000
+      internalID: -1691153154883458604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 107
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980fb09bb2c023a10800000000000000
+      internalID: 1887584575749353609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f791e035f5edaba0800000000000000
+      internalID: -6075947481003091979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713d71cd36623dd50800000000000000
+      internalID: 6760789675949413143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0103570d194eca780800000000000000
+      internalID: -8670303867676315632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_14
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6a320c1740311a0800000000000000
+      internalID: -6840118522444273983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 119
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f058165fde655b0800000000000000
+      internalID: -5379851066688598215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 119
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbca5c5b3849cce40800000000000000
+      internalID: 5678076523618610364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 82
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cb993fe2db7abd0800000000000000
+      internalID: -2618916648939570118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759eac7888e8d170800000000000000
+      internalID: 8203562394160371063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 94
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f773ec127ac1d4ac0800000000000000
+      internalID: -3869405000689109121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f2dc79a66057d50800000000000000
+      internalID: 6734295872685551385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c050d69e20e1d0a50800000000000000
+      internalID: 6488875635965756684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 94
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e18c687d54fa35d0800000000000000
+      internalID: -3081882312692170266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 94
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb721a1e431189a40800000000000000
+      internalID: 5375065074088093631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 82
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5108341a5bd0b80800000000000000
+      internalID: -8426879623513500188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d93b942a68c3270800000000000000
+      internalID: 8231602250505756039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_26
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2282fe3ea70e28fe0800000000000000
+      internalID: -1188140533257656286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_27
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf05778c80a72d60800000000000000
+      internalID: 7865431799654322102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174496e250e504480800000000000000
+      internalID: -8917023885847083919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_29
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 94
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6a4581eba1b5970800000000000000
+      internalID: 8744612505224259319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 94
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28869121017e98a60800000000000000
+      internalID: 7676921096038869122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 94
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d830d2b8c94d3d50800000000000000
+      internalID: 6718607345448925393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 57
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc86450a10daa870800000000000000
+      internalID: 8694990840768400624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2aecf5adb40c3250800000000000000
+      internalID: 5925616422292875823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 69
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ebcf7c4018acfb0800000000000000
+      internalID: -4626743809634681296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_35
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8bebe8a12a51b70800000000000000
+      internalID: 8869173276123773178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_36
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 69
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce1ade77516e3e40800000000000000
+      internalID: 5638050811932712640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bacccc8ccb098cc0800000000000000
+      internalID: -3708419844999427404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee248d285d6d5180800000000000000
+      internalID: -9125017044494569748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 69
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea9f96f46c6da9d0800000000000000
+      internalID: -2761431815618061590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_40
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 69
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3489bc0a03042f0800000000000000
+      internalID: -990738450852854790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 33
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28705560c6ffc0290800000000000000
+      internalID: -7922676805023758462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_42
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 57
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dc0decec278b3b0800000000000000
+      internalID: -5496517112647070382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d101bc69783c65260800000000000000
+      internalID: 7086066050831945757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a380cc94015091a0800000000000000
+      internalID: -6804849956705238106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d675cad9f420a60800000000000000
+      internalID: 7638755456593652994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_46
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 69
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d29ca88c0b9660800000000000000
+      internalID: 7393516994409190316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c092b98cf6c273a0800000000000000
+      internalID: -6669049310238043965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_48
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 44
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62ed10749ef431b0800000000000000
+      internalID: -5677633316717731220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e57c1d6032d4500800000000000000
+      internalID: 382000055592640014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_50
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 44
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b9b9c2482164890800000000000000
+      internalID: -7474266172681381091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 44
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b666e77631015890800000000000000
+      internalID: -7471188973379492170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_52
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 44
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bcb7cc7ef3eae90800000000000000
+      internalID: -7012597304968623259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compooter scan screen_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 44
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1530cb6ae6c12d0800000000000000
+      internalID: -3306646363998826067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      compooter scan screen_0: -5980986794766654535
+      compooter scan screen_1: 617481020818934551
+      compooter scan screen_10: 1887584575749353609
+      compooter scan screen_11: -6075947481003091979
+      compooter scan screen_12: 6760789675949413143
+      compooter scan screen_13: -8670303867676315632
+      compooter scan screen_14: -6840118522444273983
+      compooter scan screen_15: -5379851066688598215
+      compooter scan screen_16: 5678076523618610364
+      compooter scan screen_17: -2618916648939570118
+      compooter scan screen_18: 8203562394160371063
+      compooter scan screen_19: -3869405000689109121
+      compooter scan screen_2: 7870738758301666138
+      compooter scan screen_20: 6734295872685551385
+      compooter scan screen_21: 6488875635965756684
+      compooter scan screen_22: -3081882312692170266
+      compooter scan screen_23: 5375065074088093631
+      compooter scan screen_24: -8426879623513500188
+      compooter scan screen_25: 8231602250505756039
+      compooter scan screen_26: -1188140533257656286
+      compooter scan screen_27: 7865431799654322102
+      compooter scan screen_28: -8917023885847083919
+      compooter scan screen_29: 8744612505224259319
+      compooter scan screen_3: -6025621286564995868
+      compooter scan screen_30: 7676921096038869122
+      compooter scan screen_31: 6718607345448925393
+      compooter scan screen_32: 8694990840768400624
+      compooter scan screen_33: 5925616422292875823
+      compooter scan screen_34: -4626743809634681296
+      compooter scan screen_35: 8869173276123773178
+      compooter scan screen_36: 5638050811932712640
+      compooter scan screen_37: -3708419844999427404
+      compooter scan screen_38: -9125017044494569748
+      compooter scan screen_39: -2761431815618061590
+      compooter scan screen_4: -1435277436251183591
+      compooter scan screen_40: -990738450852854790
+      compooter scan screen_41: -7922676805023758462
+      compooter scan screen_42: -5496517112647070382
+      compooter scan screen_43: 7086066050831945757
+      compooter scan screen_44: -6804849956705238106
+      compooter scan screen_45: 7638755456593652994
+      compooter scan screen_46: 7393516994409190316
+      compooter scan screen_47: -6669049310238043965
+      compooter scan screen_48: -5677633316717731220
+      compooter scan screen_49: 382000055592640014
+      compooter scan screen_5: 7739375374235780564
+      compooter scan screen_50: -7474266172681381091
+      compooter scan screen_51: -7471188973379492170
+      compooter scan screen_52: -7012597304968623259
+      compooter scan screen_53: -3306646363998826067
+      compooter scan screen_6: 1087350050969371532
+      compooter scan screen_7: -7712837274391539685
+      compooter scan screen_8: -5586876361822467490
+      compooter scan screen_9: -1691153154883458604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
