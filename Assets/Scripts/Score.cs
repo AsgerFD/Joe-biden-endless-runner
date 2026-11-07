@@ -5,6 +5,7 @@ using UnityEngine;
 public class Score : MonoBehaviour
 {
     public static int score = 0;
+    public static int lives = 3;
     [HideInInspector]public static float conveyerSpeed = 40;
     public double initialConveyerSpeed = 40;
     public double logScale = 60;

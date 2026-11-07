@@ -21,7 +21,13 @@ public class Hole : MonoBehaviour
             RectTransform rt = box.GetComponent<RectTransform>();
             if(EmptyScript.DothContain(thisRectTrans, rt))
             {
-                Score.score = box.verify(this) ? box.points : -box.penalty;
+                if (box.verify(this))
+                {
+                    Score.score += box.points;
+                } else
+                {
+                    Score.lives -= box.penalty;
+                }
                 Destroy(box.gameObject);
             }
         }

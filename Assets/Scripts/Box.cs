@@ -9,7 +9,7 @@ public class Box : MonoBehaviour
     public string auth;
     public e_boxtype boxtype = e_boxtype.DEFAULT;
     public int points = 1;
-    public int penalty = 5;
+    public int penalty = 1;
     public string sender;
     public string receiver;
     public string address;
@@ -34,8 +34,12 @@ public class Box : MonoBehaviour
 
     public bool verify(Hole hole)
     {
-        if(hole.holetype != boxtype) return false;
-        if(sticker != postnumber) return false;
+        if(boxtype == e_boxtype.CONTRABAND)
+        {
+            if(hole.holetype != e_boxtype.CONTRABAND) return false;
+        } else {
+            if(sticker != postnumber) return false;
+        }
         return true;
     }
 }

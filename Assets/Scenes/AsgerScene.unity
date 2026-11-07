@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9683b937cbd4ac61397538cb5efa9ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Score
-  initialConveyerSpeed: 40
+  initialConveyerSpeed: 80
   logScale: 60
   humanFrequency: 5
 --- !u!1 &569317465
