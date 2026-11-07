@@ -15,19 +15,13 @@ public class Conveyer : MonoBehaviour
 
     private void Update()
     {
-        Box[] arse = search.GetComponentsInChildren<Box>();
-        foreach (Box ar in arse)
+        Box[] boxes = search.GetComponentsInChildren<Box>();
+        foreach (Box box in boxes)
         {
-            RectTransform huh = ar.GetComponent<RectTransform>();
-            if (thisRect.rect.Contains(huh.rect.center)){
-                huh.position += MovementVector * Time.deltaTime;
-            }
+            DragGeneric drag = box.GetComponent<DragGeneric>();
+            if(drag.dragged) continue;
+            RectTransform rectTransform = box.GetComponent<RectTransform>();
+            if(EmptyScript.DothContain(thisRect, rectTransform)) rectTransform.position += MovementVector * Time.deltaTime;
         }
     }
-
-
-    //private bool contains(RectTransform rectTransform1, RectTransform rectransform2)
-    //{
-    //    rectTransform1
-    //}
 }

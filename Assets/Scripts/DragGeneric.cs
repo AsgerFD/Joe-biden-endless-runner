@@ -1,4 +1,5 @@
 // Taget for det meste fra https://medium.com/medialesson/drag-drop-for-ui-elements-in-unity-the-simple-ish-way-9efcb4617648
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -8,6 +9,7 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     private DragManager manager;
     private Vector3 origPos;
     public bool locked = false;
+    [HideInInspector] public bool dragged = false;
 
     private void Awake()
     {
@@ -16,6 +18,7 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        dragged = true;
         origPos = transform.position;
         manager.RegisterDraggedObject(this);
     }
@@ -29,5 +32,11 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
         manager.DeregisterDraggedObject(this);
         if(locked) transform.position = origPos;
+        dragged = false;
+    }
+
+    public void changeDragManager()
+    {
+        manager = GetComponentInParent<DragManager>();
     }
 }

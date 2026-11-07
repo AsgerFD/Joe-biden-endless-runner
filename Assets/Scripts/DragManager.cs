@@ -12,12 +12,14 @@ public class DragManager : MonoBehaviour
 
     public void RegisterDraggedObject(DragGeneric drag)
     {
+        if(drag == null) return;
         currentDraggedObject = drag;
         drag.transform.SetParent(dragLayer);
     }
 
     public void DeregisterDraggedObject(DragGeneric drag)
     {
+        if(drag == null) return;
         drag.transform.SetParent(dfltLayer);
         currentDraggedObject = null;
     }
