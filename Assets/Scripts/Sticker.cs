@@ -1,4 +1,3 @@
-// Taget for det meste fra https://medium.com/medialesson/drag-drop-for-ui-elements-in-unity-the-simple-ish-way-9efcb4617648
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
