@@ -461,8 +461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1119.3, y: -266}
-  m_SizeDelta: {x: 318.6504, y: 460.7732}
+  m_AnchoredPosition: {x: 1385.8982, y: -200}
+  m_SizeDelta: {x: 851.8469, y: 460.7732}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2705565544047898113
 CanvasRenderer:
@@ -947,8 +947,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1228, y: -242.9347}
-  m_SizeDelta: {x: 3000, y: 232.1306}
+  m_AnchoredPosition: {x: 1236, y: -200}
+  m_SizeDelta: {x: 3000, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &643527663149268939
 CanvasRenderer:
@@ -1001,6 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
   search: {fileID: 698538242830074850}
+  animator: {fileID: 0}
 --- !u!1 &7991167138389713741
 GameObject:
   m_ObjectHideFlags: 0
