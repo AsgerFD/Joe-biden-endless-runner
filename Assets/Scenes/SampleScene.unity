@@ -416,6 +416,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screen1
       objectReference: {fileID: 0}
+    - target: {fileID: 5432922162792441123, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 77036137}
+    - target: {fileID: 5432922162792441123, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6258512431526483834, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -501,6 +509,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
+--- !u!1 &77036137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 698538242830074850, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
+  m_PrefabInstance: {fileID: 77036136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &208377189
 GameObject:
   m_ObjectHideFlags: 0
