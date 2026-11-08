@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -16,6 +17,7 @@ public class Score : MonoBehaviour
     public static UnityEvent scoreChangeEvent;
     public static UnityEvent livesChangeEvent;
     public Canvas endScreen;
+    public TMP_Text scoreText;
 
     private double time;
 
@@ -35,6 +37,7 @@ public class Score : MonoBehaviour
     void onScoreChange()
     {
         Debug.Log("Score: " + score);
+        scoreText.text = "SCORE: " + Convert.ToString(score);
     }
 
     void onLivesChange()
