@@ -244,6 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 0
+  box: 1
   dragged: 0
 --- !u!95 &4856242563213625242
 Animator:
