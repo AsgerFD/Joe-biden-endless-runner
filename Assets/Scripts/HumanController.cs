@@ -9,6 +9,7 @@ public class HumanController : MonoBehaviour
     public List<Sprite> playerSprites;
     public List<Sprite> playerMadSprites;
     public GameObject playerPrefab;
+    public Transform boxSpawn;
 
     void Awake()
     {

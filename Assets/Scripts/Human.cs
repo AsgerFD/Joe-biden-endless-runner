@@ -7,7 +7,7 @@ public class Human : MonoBehaviour
 {
     private Box box;
     private SettingsManager settingsManager;
-    List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
+    private List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
     [HideInInspector]public Sprite Mad;
     [Header("Funnies")]
     public List<string> randomNames;
@@ -23,7 +23,6 @@ public class Human : MonoBehaviour
     public float patienceLeave = 15.0f;
     [Header("Actually needed")]
     public GameObject boxPrefab;
-    public Transform boxSpawn;
     public List<Sprite> packageSprites;
     public Animator animator;
     public AudioSource audioSource;
@@ -45,8 +44,9 @@ public class Human : MonoBehaviour
 
     void Start()
     {
-        GameObject uhhh = Instantiate(boxPrefab, transform.parent);
-        uhhh.transform.position = boxSpawn.position;
+        HumanController hc = FindFirstObjectByType<HumanController>();
+        GameObject uhhh = Instantiate(boxPrefab, hc.boxSpawn);
+        uhhh.transform.position = hc.boxSpawn.position;
         box = uhhh.GetComponent<Box>();
 
         box.id          =   System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9)) + "-" + System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9));
