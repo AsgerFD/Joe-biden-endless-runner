@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +26,19 @@ public class Box : MonoBehaviour
     [HideInInspector]public int sticker;
     [HideInInspector]public Sprite sitckerImg;
     [HideInInspector]public bool hasBeenTaken = false;
+    private Animator animator;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+        StartCoroutine(KillAnimator());
+    }
+
+    IEnumerator KillAnimator()
+    {
+        yield return new WaitForSecondsRealtime(3.2f);
+        animator.enabled = false;
+    }
 
     private void updateImg()
     {
