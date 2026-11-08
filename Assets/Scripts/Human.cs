@@ -100,6 +100,7 @@ public class Human : MonoBehaviour
                 tmp = packageSprites[2];
                 break;
         }
+        box.img = tmp;
         uhhh.GetComponent<UnityEngine.UI.Image>().sprite = tmp;
         StartCoroutine(balls());
     }

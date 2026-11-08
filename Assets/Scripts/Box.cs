@@ -36,13 +36,13 @@ public class Box : MonoBehaviour
 
     IEnumerator KillAnimator()
     {
-        yield return new WaitForSecondsRealtime(5f);
+        yield return new WaitForSecondsRealtime(4f);
         animator.enabled = false;
     }
 
     private void updateImg()
     {
-        image.sprite = img;
+        //image.sprite = img;
         stickerImage.sprite = sitckerImg;
     }
 
