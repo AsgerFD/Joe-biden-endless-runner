@@ -28,7 +28,7 @@ public class Box : MonoBehaviour
     [HideInInspector]public bool hasBeenTaken = false;
     private Animator animator;
 
-    void Awake()
+    void Start()
     {
         animator = GetComponent<Animator>();
         StartCoroutine(KillAnimator());
@@ -36,7 +36,7 @@ public class Box : MonoBehaviour
 
     IEnumerator KillAnimator()
     {
-        yield return new WaitForSecondsRealtime(3.2f);
+        yield return new WaitForSecondsRealtime(5f);
         animator.enabled = false;
     }
 
