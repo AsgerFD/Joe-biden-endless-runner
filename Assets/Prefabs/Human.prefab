@@ -217,11 +217,10 @@ MonoBehaviour:
   patienceMad: 12.5
   patienceLeave: 17.5
   boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
-  boxSpawn: {fileID: 7595635581468626296}
   packageSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 90e29424f99f7a442bea0e27e3e7521d, type: 3}
+  - {fileID: 21300000, guid: f5b9ea1894ed3bd4ea0af182bd970b17, type: 3}
+  - {fileID: 21300000, guid: 2fde1736e9d25924fbdadd808760aa86, type: 3}
   animator: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!95 &8771661354186705108
