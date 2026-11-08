@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
 {
     private Box box;
     private SettingsManager settingsManager;
-    List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
+    private List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
     [HideInInspector]public Sprite Mad;
     [Header("Funnies")]
     public List<string> randomNames;
@@ -24,7 +23,6 @@ public class Human : MonoBehaviour
     public float patienceLeave = 15.0f;
     [Header("Actually needed")]
     public GameObject boxPrefab;
-    public Transform boxSpawn;
     public List<Sprite> packageSprites;
     public Animator animator;
     public AudioSource audioSource;
@@ -41,12 +39,14 @@ public class Human : MonoBehaviour
         settingsManager = SettingsManager.Instance;
         settingsManager.settingsChangedEvent.AddListener(LoadSettings);
         LoadSettings();
+        audioSource.Play();
     }
 
     void Start()
     {
-        GameObject uhhh = Instantiate(boxPrefab, transform.parent);
-        uhhh.transform.position = boxSpawn.position;
+        HumanController hc = FindFirstObjectByType<HumanController>();
+        GameObject uhhh = Instantiate(boxPrefab, hc.boxSpawn);
+        uhhh.transform.position = hc.boxSpawn.position;
         box = uhhh.GetComponent<Box>();
 
         box.id          =   System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9)) + "-" + System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9))+ System.Convert.ToString(Random.Range(0,9));
@@ -55,6 +55,7 @@ public class Human : MonoBehaviour
         box.receiver    =   randomNames[Random.Range(0, randomNames.Count)];
         int tmpPostnumberIndex = Random.Range(0, allowedPostnumbers.Count);
         box.postnumber  =   allowedPostnumbers[tmpPostnumberIndex];
+        box.boxtype = Box.e_boxtype.DEFAULT; // Overridden afterwards
         if(Random.Range(0f,1f) < adressFuckupChance)
         {
             box.boxtype =   Box.e_boxtype.DISCARD;
@@ -81,9 +82,8 @@ public class Human : MonoBehaviour
             box.boxtype =   Box.e_boxtype.DISCARD;
             box.purchasedWeight =   Random.Range(1, 5)*Random.Range(1, 5)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight*2, box.purchasedWeight*4);
-        }
-        if(box.boxtype != Box.e_boxtype.DISCARD) {
-            box.boxtype = Box.e_boxtype.DEFAULT;
+        } else
+        {
             box.purchasedWeight =   Random.Range(1, 10)*Random.Range(1, 10)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight/2, box.purchasedWeight);
         }
