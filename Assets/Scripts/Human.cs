@@ -131,7 +131,7 @@ public class Human : MonoBehaviour
         animator.SetTrigger("exit");
         if (timeTaken > patienceLeave)
         {
-            Score.score -= box.penalty;
+            Score.lives -= box.penalty;
             Score.livesChangeEvent.Invoke();
             Destroy(box.gameObject);
         }

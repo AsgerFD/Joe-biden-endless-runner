@@ -217,7 +217,7 @@ MonoBehaviour:
   auth: 
   boxtype: 0
   points: 1
-  penalty: 5
+  penalty: 1
   sender: 
   receiver: 
   address: 

@@ -1208,8 +1208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37, y: 70}
-  m_SizeDelta: {x: 5, y: 5}
+  m_AnchoredPosition: {x: 5, y: 100}
+  m_SizeDelta: {x: 5, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3711634693817371661
 CanvasRenderer:
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1553,6 +1553,7 @@ GameObject:
   - component: {fileID: 5081658508389429330}
   - component: {fileID: 8339722327597563901}
   - component: {fileID: 458550767994331079}
+  - component: {fileID: 3622050154140014340}
   m_Layer: 5
   m_Name: Scanner
   m_TagString: Untagged
@@ -1608,7 +1609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6636627372926807363, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
+  m_Sprite: {fileID: -3385340147921105665, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1632,6 +1633,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
   dragged: 0
+--- !u!114 &3622050154140014340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502468904139963419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda8d905cf567056cb0fb890103eedaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScannerSwitchSprite
+  parentSprite: {fileID: 8339722327597563901}
+  scanDefSprite: {fileID: 6636627372926807363, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
+  scanningSprite: {fileID: -3385340147921105665, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
 --- !u!1 &9019730290078566812
 GameObject:
   m_ObjectHideFlags: 0
