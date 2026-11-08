@@ -1,8 +1,10 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(RectTransform))]
-public class Scanner : MonoBehaviour
+public class Scanner : MonoBehaviour, IEndDragHandler, IBeginDragHandler
 {
     RectTransform thisRect;
     public GameObject search;
@@ -29,6 +31,16 @@ public class Scanner : MonoBehaviour
                 StartCoroutine(scan());
             }
         }
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        
     }
 
     private IEnumerator scan()
