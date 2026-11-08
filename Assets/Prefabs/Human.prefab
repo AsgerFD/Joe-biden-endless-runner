@@ -32,7 +32,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184, y: 67}
+  m_AnchoredPosition: {x: 810, y: 67}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3146465696769031675
@@ -214,8 +214,8 @@ MonoBehaviour:
   - 9 Jod house
   weightFraudChance: 0.1
   adressFuckupChance: 0.1
-  patienceMad: 10
-  patienceLeave: 15
+  patienceMad: 12.5
+  patienceLeave: 17.5
   boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
   boxSpawn: {fileID: 7595635581468626296}
   packageSprites:
@@ -257,8 +257,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: 54078f9d4cff4bc4ba4c3f4759cbb832, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

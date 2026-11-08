@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Human : MonoBehaviour
@@ -41,6 +40,7 @@ public class Human : MonoBehaviour
         settingsManager = SettingsManager.Instance;
         settingsManager.settingsChangedEvent.AddListener(LoadSettings);
         LoadSettings();
+        audioSource.Play();
     }
 
     void Start()
@@ -55,6 +55,7 @@ public class Human : MonoBehaviour
         box.receiver    =   randomNames[Random.Range(0, randomNames.Count)];
         int tmpPostnumberIndex = Random.Range(0, allowedPostnumbers.Count);
         box.postnumber  =   allowedPostnumbers[tmpPostnumberIndex];
+        box.boxtype = Box.e_boxtype.DEFAULT; // Overridden afterwards
         if(Random.Range(0f,1f) < adressFuckupChance)
         {
             box.boxtype =   Box.e_boxtype.DISCARD;
@@ -81,9 +82,8 @@ public class Human : MonoBehaviour
             box.boxtype =   Box.e_boxtype.DISCARD;
             box.purchasedWeight =   Random.Range(1, 5)*Random.Range(1, 5)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight*2, box.purchasedWeight*4);
-        }
-        if(box.boxtype != Box.e_boxtype.DISCARD) {
-            box.boxtype = Box.e_boxtype.DEFAULT;
+        } else
+        {
             box.purchasedWeight =   Random.Range(1, 10)*Random.Range(1, 10)*1000;
             box.actualWeight    =   Random.Range(box.purchasedWeight/2, box.purchasedWeight);
         }

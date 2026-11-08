@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    public static int score = 0;
-    public static int lives = 3;
+    public static int score;
+    public static int lives;
     [HideInInspector]public static float conveyerSpeed;
     public double initialConveyerSpeed = 40;
     public double logScaleConveyerSpeed = 60;
-    [HideInInspector]public float humanFrequency = 60;
-    public double initialHumanFrequency = 30;
-    public double logScaleHumanFrequency = 60;
+    public float humanFrequency;
+    [HideInInspector]public double initialHumanFrequency;
+    public double logScaleHumanFrequency;
 
     private double time;
 
     void Start()
     {
+        score = 0;
+        lives = 3;
+        initialHumanFrequency = humanFrequency;
         StartCoroutine(SpawnHumans());
     }
 
@@ -30,9 +33,8 @@ public class Score : MonoBehaviour
         time += Time.deltaTime;
 
         conveyerSpeed   =   (float)(initialConveyerSpeed * Math.Log(logScaleConveyerSpeed + time) / Math.Log(logScaleConveyerSpeed));
-        Debug.Log("convspeed: " +  conveyerSpeed);
         humanFrequency  =   (float)(initialHumanFrequency * Math.Log(logScaleHumanFrequency) / Math.Log(logScaleHumanFrequency + time));
-        Debug.Log("hrmnfrequ: " +  humanFrequency);
+        Debug.Log(score);
     }
 
     IEnumerator SpawnHumans()
