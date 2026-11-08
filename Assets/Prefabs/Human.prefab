@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 3254938811309626223}
   - component: {fileID: 8771661354186705108}
   - component: {fileID: 4724915027702644576}
-  - component: {fileID: 8329387657040417852}
+  - component: {fileID: 4815968198139246553}
   m_Layer: 5
   m_Name: Human
   m_TagString: Untagged
@@ -203,7 +203,7 @@ MonoBehaviour:
   - 24 Abzalon st.
   randomAddresses2:
   - 4 Missouri st.
-  - 2 Blexas st.
+  - 1 Blexas st.
   - 5 Bama st.
   randomAddresses3:
   - 420 Pork st.
@@ -213,18 +213,17 @@ MonoBehaviour:
   - 7 Jack st.
   - 11 Pot blvd.
   - 9 Jod house
-  weightFraudChance: 0.1
-  adressFuckupChance: 0.1
-  patienceMad: 12.5
-  patienceLeave: 17.5
+  weightFraudChance: 0.2
+  adressFuckupChance: 0.2
+  patienceMad: 10
+  patienceLeave: 15
   boxPrefab: {fileID: 6731820023636844275, guid: 7c5dacf144c8c385287736205c088e15, type: 3}
   packageSprites:
   - {fileID: 21300000, guid: 86894eefafa31c746a1f70b2e9642f92, type: 3}
-  - {fileID: 21300000, guid: 4e1b4e7eec4cf684fae97890c16f81f0, type: 3}
   - {fileID: 21300000, guid: 91e83aa7c75755241bc9303dbf783060, type: 3}
-  animator: {fileID: 0}
+  - {fileID: 21300000, guid: 4e1b4e7eec4cf684fae97890c16f81f0, type: 3}
   audioSourceDing: {fileID: 4724915027702644576}
-  audioSourceMad: {fileID: 8329387657040417852}
+  audioSourceMad: {fileID: 4815968198139246553}
 --- !u!95 &8771661354186705108
 Animator:
   serializedVersion: 7
@@ -356,7 +355,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 6418180475301049370, guid: 559857bbee1b8f74bad707f4204cabf2, type: 2}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

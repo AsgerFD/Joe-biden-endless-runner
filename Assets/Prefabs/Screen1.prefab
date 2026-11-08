@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 5282556627897771149}
   m_Layer: 5
   m_Name: ConveyerEnd
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 8729864363668280810}
   m_Layer: 5
   m_Name: Conveyer
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -947,8 +947,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1236, y: -200}
-  m_SizeDelta: {x: 3000, y: 300}
+  m_AnchoredPosition: {x: 1150, y: -200}
+  m_SizeDelta: {x: 3000, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &643527663149268939
 CanvasRenderer:
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
   search: {fileID: 698538242830074850}
-  animator: {fileID: 0}
+  animator: {fileID: 2038953952080683699}
 --- !u!1 &7991167138389713741
 GameObject:
   m_ObjectHideFlags: 0

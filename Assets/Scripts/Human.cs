@@ -8,6 +8,7 @@ public class Human : MonoBehaviour
     private Box box;
     private SettingsManager settingsManager;
     private List<char> chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray().ToList();
+    private Sprite tmp;
     [HideInInspector]public Sprite Mad;
     [Header("Funnies")]
     public List<string> randomNames;
@@ -24,7 +25,7 @@ public class Human : MonoBehaviour
     [Header("Actually needed")]
     public GameObject boxPrefab;
     public List<Sprite> packageSprites;
-    public Animator animator;
+    private Animator animator;
     public AudioSource audioSourceDing;
     public AudioSource audioSourceMad;
 
@@ -81,25 +82,40 @@ public class Human : MonoBehaviour
         if(Random.Range(0f,1f) < weightFraudChance)
         {
             box.boxtype =   Box.e_boxtype.DISCARD;
-            box.purchasedWeight =   Random.Range(1, 5)*Random.Range(1, 5)*1000;
+            switch (Random.Range(0, 3))
+            {
+                case 0:
+                    tmp = packageSprites[0];
+                    box.purchasedWeight = Random.Range(1,1001);
+                    break;
+                case 1:
+                    tmp = packageSprites[1];
+                    box.purchasedWeight = Random.Range(1001,10001);
+                    break;
+                case 2:
+                    tmp = packageSprites[2];
+                    box.purchasedWeight = Random.Range(10001,25001);
+                    break;
+            }
             box.actualWeight    =   Random.Range(box.purchasedWeight*2, box.purchasedWeight*4);
         } else
         {
-            box.purchasedWeight =   Random.Range(1, 10)*Random.Range(1, 10)*1000;
+            switch (Random.Range(0, 3))
+            {
+                case 0:
+                    tmp = packageSprites[0];
+                    box.purchasedWeight = Random.Range(1,1001);
+                    break;
+                case 1:
+                    tmp = packageSprites[1];
+                    box.purchasedWeight = Random.Range(1001,10001);
+                    break;
+                case 2:
+                    tmp = packageSprites[2];
+                    box.purchasedWeight = Random.Range(10001,100001);
+                    break;
+            }
             box.actualWeight    =   Random.Range(box.purchasedWeight/2, box.purchasedWeight);
-        }
-        Sprite tmp;
-        switch (box.actualWeight)
-        {
-            case < 1000:
-                tmp = packageSprites[0];
-                break;
-            case < 10000:
-                tmp = packageSprites[1];
-                break;
-            default:
-                tmp = packageSprites[2];
-                break;
         }
         box.img = tmp;
         uhhh.GetComponent<UnityEngine.UI.Image>().sprite = tmp;
