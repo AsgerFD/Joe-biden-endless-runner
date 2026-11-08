@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 4440156623504650083}
   - component: {fileID: 1611553462737253191}
   - component: {fileID: 5368713182582096565}
+  - component: {fileID: 4856242563213625242}
   m_Layer: 5
   m_Name: box
   m_TagString: Untagged
@@ -244,3 +245,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 0
   dragged: 0
+--- !u!95 &4856242563213625242
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6731820023636844275}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6ee69a1ec7771447aae7865df894b48, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
