@@ -23,7 +23,6 @@ public class Score : MonoBehaviour
 
     void Start()
     {
-        endScreen.enabled = false;
         if(scoreChangeEvent == null) scoreChangeEvent = new UnityEvent();
         if(livesChangeEvent == null) livesChangeEvent = new UnityEvent();
         scoreChangeEvent.AddListener(onScoreChange);
@@ -45,7 +44,8 @@ public class Score : MonoBehaviour
         Debug.Log("Lives left: " + lives);
         if(lives <= 0)
         {
-            endScreen.enabled = true;
+            endScreen.gameObject.SetActive(true);
+            StopCoroutine(SpawnHumans());
         }
     }
 
