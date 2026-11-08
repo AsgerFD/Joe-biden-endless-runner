@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 513517462143859114, guid: c28845899c347044a8382f0e28ab2cd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3508318328907438493, guid: c28845899c347044a8382f0e28ab2cd4, type: 3}
       propertyPath: m_Pivot.x
@@ -217,7 +217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3862179794180895942, guid: c28845899c347044a8382f0e28ab2cd4, type: 3}
       propertyPath: m_Name
-      value: Quit
+      value: Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -229,6 +229,17 @@ Canvas:
   m_CorrespondingSourceObject: {fileID: 5628032736702455056, guid: 023467da7798a5c8f8626c3139992bbe, type: 3}
   m_PrefabInstance: {fileID: 5397540576774578665}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &330240094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5325746229525818209, guid: c28845899c347044a8382f0e28ab2cd4, type: 3}
+  m_PrefabInstance: {fileID: 115058053}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +418,8 @@ MonoBehaviour:
   humanFrequency: 25
   initialHumanFrequency: 15
   logScaleHumanFrequency: 120
+  endScreen: {fileID: 988538415}
+  scoreText: {fileID: 330240094}
 --- !u!95 &612362002 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2038953952080683699, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
@@ -505,6 +518,11 @@ RectTransform:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3368194738186927965, guid: 023467da7798a5c8f8626c3139992bbe, type: 3}
   m_PrefabInstance: {fileID: 5397540576774578665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &988538415 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 3290458892224099547, guid: c28845899c347044a8382f0e28ab2cd4, type: 3}
+  m_PrefabInstance: {fileID: 115058053}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001621267
 GameObject:
