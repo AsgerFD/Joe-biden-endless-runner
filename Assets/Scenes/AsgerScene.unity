@@ -420,6 +420,17 @@ MonoBehaviour:
   logScaleHumanFrequency: 120
   endScreen: {fileID: 988538415}
   scoreText: {fileID: 330240094}
+--- !u!114 &539723303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8339722327597563901, guid: 6d93dbc13925b55c09937bf8052f8dfb, type: 3}
+  m_PrefabInstance: {fileID: 7882234174532480702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!95 &612362002 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2038953952080683699, guid: 2504cf3b6e0b0b9dfa202a1444d04c11, type: 3}
@@ -1218,6 +1229,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8653273450706862384, guid: 6d93dbc13925b55c09937bf8052f8dfb, type: 3}
+      propertyPath: parentSprite
+      value: 
+      objectReference: {fileID: 539723303}
+    - target: {fileID: 8653273450706862384, guid: 6d93dbc13925b55c09937bf8052f8dfb, type: 3}
+      propertyPath: scanDefSprite
+      value: 
+      objectReference: {fileID: 6636627372926807363, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
+    - target: {fileID: 8653273450706862384, guid: 6d93dbc13925b55c09937bf8052f8dfb, type: 3}
+      propertyPath: scanningSprite
+      value: 
+      objectReference: {fileID: -3385340147921105665, guid: 9da1d6c4f09be374586239f9b25c7981, type: 3}
     - target: {fileID: 9019730290078566812, guid: 6d93dbc13925b55c09937bf8052f8dfb, type: 3}
       propertyPath: m_Name
       value: Screen2

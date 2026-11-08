@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(RectTransform))]
 public class Scanner : MonoBehaviour, IEndDragHandler, IBeginDragHandler
@@ -10,6 +11,10 @@ public class Scanner : MonoBehaviour, IEndDragHandler, IBeginDragHandler
     public GameObject search;
     public float holdTime = 1.0f;
     private bool isStarted = false;
+
+    public Image parentSprite;
+    public Sprite scanDefSprite;
+    public Sprite scanningSprite;
 
     private void Start()
     {
@@ -35,12 +40,12 @@ public class Scanner : MonoBehaviour, IEndDragHandler, IBeginDragHandler
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        parentSprite.sprite = scanningSprite;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        
+        parentSprite.sprite = scanDefSprite;
     }
 
     private IEnumerator scan()
