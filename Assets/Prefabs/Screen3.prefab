@@ -168,13 +168,13 @@ RectTransform:
   - {fileID: 3249398362879304149}
   - {fileID: 7989732842096350839}
   - {fileID: 6923716036578912619}
-  - {fileID: 2120094583724588520}
   - {fileID: 338185758288920585}
   - {fileID: 2993190480424031067}
   - {fileID: 3360860898161440134}
   - {fileID: 3437458012679648675}
   - {fileID: 3368194738186927965}
   - {fileID: 1523974119348615531}
+  - {fileID: 2120094583724588520}
   - {fileID: 3518085163060026205}
   - {fileID: 5732223521706918259}
   m_Father: {fileID: 0}
@@ -1718,6 +1718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
   search: {fileID: 1867946989434479890}
+  animator: {fileID: 0}
 --- !u!1 &8789839019685162568
 GameObject:
   m_ObjectHideFlags: 0
