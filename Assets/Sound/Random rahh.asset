@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-3320254605675251224
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Anders And_{-3320254605675251224}
+  m_AudioClip: {fileID: 8300000, guid: 944648ba13f53b5429d4f9d24b5550de, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1233149941 &2277519361454601928
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AARRHH_{2277519361454601928}
+  m_AudioClip: {fileID: 8300000, guid: f7ade04aa9ebeba4e91156faa35185bf, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Random rahh
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2277519361454601928}
+  - {fileID: -3320254605675251224}
+  - {fileID: 8399566259394223181}
+  - {fileID: 8506333172679144811}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8399566259394223181
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BARHRHR_{8399566259394223181}
+  m_AudioClip: {fileID: 8300000, guid: d5b73165aeb5cb04d9d1ab87927caad8, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1233149941 &8506333172679144811
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HARRRH_{8506333172679144811}
+  m_AudioClip: {fileID: 8300000, guid: a75530e54bbd6b34f801385470748283, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
