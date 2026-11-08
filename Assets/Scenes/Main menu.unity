@@ -470,7 +470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 260594299}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 827527168}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: StopGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &373054101
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +964,7 @@ GameObject:
   - component: {fileID: 827527164}
   - component: {fileID: 827527163}
   - component: {fileID: 827527167}
+  - component: {fileID: 827527168}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1070,6 +1083,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &827527168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827527162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe424a20a967365bdaf979f969e809aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
 --- !u!1 &1019601622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,7 +1517,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1179896554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 827527168}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: AsgerScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1248790425
 GameObject:
   m_ObjectHideFlags: 0
