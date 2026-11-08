@@ -30,22 +30,22 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        dragged = false;
         manager.DeregisterDraggedObject(this);
         if(invalid()) transform.position = origPos;
-        dragged = false;
     }
 
     bool invalid()
     {
         if(locked) return true;
         if(!box) return false;
-        foreach (RectTransform rt in manager.gameObject.GetComponentInChildren<RectTransform>())
+        foreach (RectTransform rt in manager.gameObject.GetComponentsInChildren<RectTransform>())
         {
-            if(rt.gameObject.CompareTag("boxplace"))
-            if(EmptyScript.DothContain(rt, transform as RectTransform)) return false;
+            if (!rt.gameObject.CompareTag("boxplace")) continue;
+            if(EmptyScript.DothContain(rt, transform as RectTransform))
+                return false;
         }
         return true;
-
     }
 
     public void changeDragManager()
