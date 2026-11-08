@@ -90,10 +90,10 @@ public class Human : MonoBehaviour
         Sprite tmp;
         switch (box.actualWeight)
         {
-            case < 1:
+            case < 1000:
                 tmp = packageSprites[0];
                 break;
-            case < 5:
+            case < 10000:
                 tmp = packageSprites[1];
                 break;
             default:
