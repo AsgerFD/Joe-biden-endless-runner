@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &182605911528176723
 GameObject:
@@ -244,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &468155110053911321
 GameObject:
@@ -447,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &718369251699184651
 GameObject:
@@ -552,6 +555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &1145664898257073774
 GameObject:
@@ -657,6 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &1521442636570698206
 GameObject:
@@ -762,6 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &1867946989434479890
 GameObject:
@@ -1294,6 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &2391756354650135285
 GameObject:
@@ -1399,6 +1406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3010982643038993779
 GameObject:
@@ -1504,6 +1512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3110514304863115720
 GameObject:
@@ -1609,6 +1618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3322266686563285947
 GameObject:
@@ -1714,6 +1724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3429841773985469678
 GameObject:
@@ -1819,6 +1830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3488170128742250169
 GameObject:
@@ -1924,6 +1936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &3555395663178915049
 GameObject:
@@ -2029,6 +2042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4089885392478279596
 GameObject:
@@ -2232,6 +2246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4205296341459221687
 GameObject:
@@ -2337,6 +2352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4258317492059832451
 GameObject:
@@ -2517,6 +2533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4326669026022600948
 GameObject:
@@ -2622,6 +2639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4879386264905714991
 GameObject:
@@ -2727,6 +2745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &4976293132079320771
 GameObject:
@@ -2817,7 +2836,7 @@ GameObject:
   - component: {fileID: 1393712165125434416}
   m_Layer: 5
   m_Name: DiscardHole
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2997,6 +3016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5441044120920664381
 GameObject:
@@ -3102,6 +3122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5601276408259089630
 GameObject:
@@ -3207,6 +3228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5636601404852854681
 GameObject:
@@ -3312,6 +3334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5737970417949749167
 GameObject:
@@ -3417,6 +3440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5850706660267617710
 GameObject:
@@ -3522,6 +3546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &5870118467053031694
 GameObject:
@@ -3759,6 +3784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &6665801640418925668
 GameObject:
@@ -3864,6 +3890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &6910571278359723008
 GameObject:
@@ -4067,6 +4094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &7135067356827652264
 GameObject:
@@ -4082,7 +4110,7 @@ GameObject:
   - component: {fileID: 8970870345746136816}
   m_Layer: 5
   m_Name: Hole
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4262,6 +4290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &7443836659288759774
 GameObject:
@@ -4409,7 +4438,7 @@ GameObject:
   - component: {fileID: 3126216994370861366}
   m_Layer: 5
   m_Name: Conveyer
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4589,6 +4618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &7771536196130877937
 GameObject:
@@ -4694,6 +4724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8054412408354344736
 GameObject:
@@ -4799,6 +4830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8163611612707160814
 GameObject:
@@ -4904,6 +4936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8185315053209796023
 GameObject:
@@ -5009,6 +5042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8241244140146459759
 GameObject:
@@ -5114,6 +5148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8312106837092700701
 GameObject:
@@ -5219,6 +5254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8333571409752640926
 GameObject:
@@ -5324,6 +5360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8528294729935332833
 GameObject:
@@ -5429,6 +5466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8813927573869647133
 GameObject:
@@ -5534,6 +5572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!1 &8942715686926359807
 GameObject:
@@ -5789,4 +5828,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0

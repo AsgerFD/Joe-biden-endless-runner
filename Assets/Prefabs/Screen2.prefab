@@ -1375,7 +1375,7 @@ GameObject:
   - component: {fileID: 7549506141623469483}
   m_Layer: 5
   m_Name: WeightHitbox
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1396,8 +1396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -124.69}
-  m_SizeDelta: {x: 350, y: 300}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 500, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8082140960595947290
 CanvasRenderer:
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 2798147014943759979}
   m_Layer: 5
   m_Name: Conveyer
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1632,6 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragGeneric
   locked: 1
+  box: 0
   dragged: 0
 --- !u!114 &3622050154140014340
 MonoBehaviour:
@@ -1789,7 +1790,7 @@ GameObject:
   - component: {fileID: 5976161227684588645}
   m_Layer: 5
   m_Name: ConveyerEnd
-  m_TagString: Untagged
+  m_TagString: boxplace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

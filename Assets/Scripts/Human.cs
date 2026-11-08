@@ -25,21 +25,22 @@ public class Human : MonoBehaviour
     public GameObject boxPrefab;
     public List<Sprite> packageSprites;
     public Animator animator;
-    public AudioSource audioSource;
+    public AudioSource audioSourceDing;
+    public AudioSource audioSourceMad;
 
     void LoadSettings()
     {
-        audioSource.volume = settingsManager.sfxVolume;
+        audioSourceDing.volume = settingsManager.sfxVolume;
+        audioSourceMad.volume = settingsManager.sfxVolume;
     }
 
     void Awake()
     {
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
         settingsManager = SettingsManager.Instance;
         settingsManager.settingsChangedEvent.AddListener(LoadSettings);
         LoadSettings();
-        audioSource.Play();
+        audioSourceDing.Play();
     }
 
     void Start()
@@ -134,6 +135,7 @@ public class Human : MonoBehaviour
         {
             Score.lives -= box.penalty;
             Score.livesChangeEvent.Invoke();
+            audioSourceMad.Play();
             Destroy(box.gameObject);
         }
         yield return new WaitForSecondsRealtime(5);
