@@ -2657,6 +2657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
   search: {fileID: 304884952}
+  animator: {fileID: 0}
 --- !u!114 &764026038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4207,7 +4208,7 @@ GameObject:
   - component: {fileID: 1374660203}
   - component: {fileID: 1374660202}
   m_Layer: 5
-  m_Name: Enc screen
+  m_Name: End screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6600,6 +6601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Conveyer
   search: {fileID: 1791984762}
+  animator: {fileID: 0}
 --- !u!114 &2087641785
 MonoBehaviour:
   m_ObjectHideFlags: 0
