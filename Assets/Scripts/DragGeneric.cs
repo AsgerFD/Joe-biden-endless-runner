@@ -8,6 +8,7 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     private DragManager manager;
     private Vector3 origPos;
     public bool locked = false;
+    public bool box = false;
     [HideInInspector] public bool dragged = false;
 
     private void Awake()
@@ -30,8 +31,21 @@ public class DragGeneric : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public void OnEndDrag(PointerEventData eventData)
     {
         manager.DeregisterDraggedObject(this);
-        if(locked) transform.position = origPos;
+        if(invalid()) transform.position = origPos;
         dragged = false;
+    }
+
+    bool invalid()
+    {
+        if(locked) return true;
+        if(!box) return false;
+        foreach (RectTransform rt in manager.gameObject.GetComponentInChildren<RectTransform>())
+        {
+            if(rt.gameObject.CompareTag("boxplace"))
+            if(EmptyScript.DothContain(rt, transform as RectTransform)) return false;
+        }
+        return true;
+
     }
 
     public void changeDragManager()
