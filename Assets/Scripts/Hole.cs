@@ -24,9 +24,11 @@ public class Hole : MonoBehaviour
                 if (box.verify(this))
                 {
                     Score.score += box.points;
+                    Score.scoreChangeEvent.Invoke();
                 } else
                 {
                     Score.lives -= box.penalty;
+                    Score.livesChangeEvent.Invoke();
                 }
                 Destroy(box.gameObject);
             }

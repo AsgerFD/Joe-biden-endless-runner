@@ -132,6 +132,7 @@ public class Human : MonoBehaviour
         if (timeTaken > patienceLeave)
         {
             Score.score -= box.penalty;
+            Score.livesChangeEvent.Invoke();
             Destroy(box.gameObject);
         }
         yield return new WaitForSecondsRealtime(5);
